@@ -1,6 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module Day05 where
+module Day06 where
 
 import Common
 import Data.List
