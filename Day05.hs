@@ -4,7 +4,6 @@ module Day05 where
 
 import Common
 import Data.IntMap (findWithDefault)
-import Data.Map qualified as M
 import Data.Void
 import Text.Megaparsec
 import Text.Megaparsec.Char
