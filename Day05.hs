@@ -3,7 +3,6 @@
 module Day05 where
 
 import Common
-import Data.IntMap (findWithDefault)
 import Data.Void
 import Text.Megaparsec
 import Text.Megaparsec.Char
