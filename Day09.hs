@@ -30,7 +30,7 @@ allDiffs r
 
 solve1 = sum . map (sum . map last . allDiffs)
 
-solve2 = sum . map (foldl (flip (-)) 0 .reverse . map head . allDiffs)
+solve2 = sum . map (foldr ((-) . head) 0 . allDiffs)
 
 day9 :: Difficulty -> Problem [Row] Int
 day9 diff =
